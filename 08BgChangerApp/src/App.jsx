@@ -3,6 +3,8 @@ import "./App.css";
 
 function App() {
   // define state
+  // current_state = old color
+  // update_state = new color, whenever use click on the button of color-button[red-button]
   const [color, setColor] = useState("black");
   return (
     <div
